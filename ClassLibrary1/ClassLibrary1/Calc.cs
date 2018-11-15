@@ -2,12 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ATMLibrary
+
+
+namespace com.vm
 {
-    class Calc
+    public class Calc
     {
         public int Add(int a, int b)
         {
+            int c = a / b;
+            if (c > 0)
+            {
+                return c;
+            }
             return a + b;
         }
 

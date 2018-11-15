@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using com.vm;
 
 
-namespace ATMLibraryTest
+namespace com.vm.test
 {
     [TestClass]
     public class ATMClassTest
