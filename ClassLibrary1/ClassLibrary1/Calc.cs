@@ -30,6 +30,7 @@ namespace com.vm
 
         public float Div(int a, int b)
         {
+            // return type may be of float type
             return a / b;
         }
     }
