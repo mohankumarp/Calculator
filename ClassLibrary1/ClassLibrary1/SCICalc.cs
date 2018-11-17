@@ -16,7 +16,7 @@ namespace com.vm
         public int SciAdd(int a, int b)
         {
             //This is derieved class add
-            return base.Add(a, b);
+            return Add(a, b);
 
         }
     }
