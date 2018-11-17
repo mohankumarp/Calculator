@@ -9,7 +9,7 @@ namespace com.vm
     public class Calc
     {
 
-        public int Add(int a, int b)
+        public static int Add(int a, int b)
         {
             int c = a / b;
             if (c > 0)
@@ -19,17 +19,17 @@ namespace com.vm
             return a + b;
         }
 
-        public int Sub(int a, int b)
+        public static int Sub(int a, int b)
         {
             return a - b;
         }
 
-        public int Mul(int a, int b)
+        public static int Mul(int a, int b)
         {
             return a * b;
         }
 
-        public float Div(int a, int b)
+        public static float Div(int a, int b)
         {
             // return type may be of float type
             return a / b;
