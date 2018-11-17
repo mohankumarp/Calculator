@@ -8,6 +8,7 @@ namespace com.vm
 {
     public class Calc
     {
+
         public int Add(int a, int b)
         {
             int c = a / b;
