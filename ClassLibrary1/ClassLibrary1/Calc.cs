@@ -26,7 +26,7 @@ namespace com.vm
 
         public static int Mul(int a, int b)
         {
-            //This is Multiplication of a and b
+            //This is Multiplication of 'a' and b
             return a * b;
         }
 
