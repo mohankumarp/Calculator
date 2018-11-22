@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="3b04d789-7fc7-46f2-9a25-70abdc92298c" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="027acc1e-cf34-4cd1-81f2-220dce057151" name="ATMClassTest">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="28fceef5-72e2-4c89-ad0b-21757c56f898" direction="Forward">
+          <layerMoniker Id="e0a1f3a9-147d-4264-ad1d-f32d442c1887" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="2eb2f8f0-e65c-4b41-9d1f-d48778ba87a6" name="ATMClassTest">
+          <ArtifactNode Label="ATMClassTest" Category="CodeSchema_Class" Id="(Assembly=../ATMLibraryTest/bin/Release/netcoreapp2.0/ATMLibraryTest.dll Namespace=com.vm.test Type=ATMClassTest)" />
+          <ExpandedNode Id="(Assembly=ATMLibraryTest Namespace=com.vm.test Type=ATMClassTest)" Label="ATMClassTest" Category="CodeSchema_Class">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="e0a1f3a9-147d-4264-ad1d-f32d442c1887" name="ATMLibrary">
+      <references>
+        <reference Id="4681a581-6b20-469a-944b-c852fe8e96b7" name="ATMLibrary">
+          <ArtifactNode Label="ATMLibrary" Category="CodeSchema_Project" Id="(Assembly=../ClassLibrary1/ATMLibrary.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=ATMLibrary)" Label="ATMLibrary.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

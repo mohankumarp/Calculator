@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerDiagram dslVersion="1.0.0.0" Id="87c38e92-d4e6-481d-8c68-e239f548d591" absoluteBounds="0, 0, 11, 8.5" name="DependencyValidation1">
+  <layerModelMoniker Id="3b04d789-7fc7-46f2-9a25-70abdc92298c" />
+  <nestedChildShapes>
+    <layerShape Id="3607d124-6599-47d2-93ab-bbc6a7e6c6ed" absoluteBounds="4.875, 1.5, 2, 0.75" customColor="161, 199, 231">
+      <layerMoniker Id="027acc1e-cf34-4cd1-81f2-220dce057151" />
+    </layerShape>
+    <layerShape Id="c4884771-efb8-4bbe-a613-a85a15968c8d" absoluteBounds="5, 3.5, 2, 0.75" customColor="161, 199, 231">
+      <layerMoniker Id="e0a1f3a9-147d-4264-ad1d-f32d442c1887" />
+    </layerShape>
+    <dependencyConnector edgePoints="[(5.9375 : 2.25); (5.9375 : 3.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110">
+      <dependencyFromLayerToLayerMoniker Id="28fceef5-72e2-4c89-ad0b-21757c56f898" />
+      <nodes>
+        <layerShapeMoniker Id="3607d124-6599-47d2-93ab-bbc6a7e6c6ed" />
+        <layerShapeMoniker Id="c4884771-efb8-4bbe-a613-a85a15968c8d" />
+      </nodes>
+    </dependencyConnector>
+  </nestedChildShapes>
+</layerDiagram>
