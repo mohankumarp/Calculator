@@ -20,6 +20,7 @@ namespace CalculatorTest
 
         [DataTestMethod]
         [DataRow(5, 4)]
+        [DataRow(6, 5)]
         [DataRow(1, 0)]
         [DataRow(0, -1)]
         public void Testsub(int m, int n)
