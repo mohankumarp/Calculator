@@ -1,1 +1,1 @@
-# Calculator demo.
+# Calculator demo APPLICATION
