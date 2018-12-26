@@ -1,1 +1,1 @@
-# Calculator demo application. mohan kumar panigrahi.
+# Calculator demo application. mohan kumar
